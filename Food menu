@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main ()
+{
+	printf ("WELCOME YOU SIR ,  PLEASE SELECT WHAT YOU WANT !\n"  );
+	printf ("Here are few.\n");
+	printf ("Select what you want :\n1.Pizza \n2.Burger \n3.Pasta\n4.Sandwich\n");
+	printf("Enter Here \n");
+	int choice=0;
+	scanf ("%d", & choice );
+	switch (choice)
+	{
+		case 1: printf("Hey ! you choose pizza Right ...\n And its cost RS.239 Only\n");
+		break;
+		case 2: printf("Hey ! you choose Burger Right ...\n And its cost RS.129 Only\n");
+		break;
+		case 3: printf("Hey ! you choose pasta Right ...\n And its cost RS.179 Only\n");
+		break;
+		case 4: printf("Hey ! you choose Sandwich Right ...\n And its cost RS.149 Only\n");
+		break;
+	}
+	printf ("THANK YOU VISITNG US ! HAVE A GREAT DAY .....");
+	
+}
